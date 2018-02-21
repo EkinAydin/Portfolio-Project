@@ -1,0 +1,260 @@
+.navbar {
+  opacity: 0.9;
+  font-family: Montserrat, sans-serif;
+}
+body {
+  font: 800 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #1d2120;
+}
+h1 {
+  font-family: Arial;
+  letter-spacing: 10px;
+  color: #06000a;
+  padding: 20px;
+  font-style: oblique;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: black;
+}
+hr {
+  border-width: 3px;
+  border-color: #06000a;
+}
+
+.jumbotron {
+  background-color: #1d2120;
+  color: #fff;
+  padding: 80px 25px;
+  font-family: Montserrat, sans-serif;
+}
+
+#About {
+  background-color: #e9ece5;
+  background-image: url("https://sg-dae.kxcdn.com/blog/wp-content/uploads/2017/01/become-the-source-of-light-1090x613.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Portfolio {
+  background-color: #e9ece5;
+  background-image: url("http://ak0.picdn.net/shutterstock/videos/21837910/thumb/1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #e9ece5;
+}
+footer:hover {
+  background-color: #1d2120;
+  text-decoration: none;
+  transition: all 0.8s ease;
+  color: white;
+}
+.container-fluid {
+  padding: 80px 50px;
+}
+
+.fa-html5 {
+  font-size: 30px;
+  color: #1d2120;
+}
+.fa-css3-alt {
+  font-size: 30px;
+  color: #1d2120;
+}
+.fa-js {
+  font-size: 30px;
+  color: #1d2120;
+}
+.fa-angular {
+  font-size: 30px;
+  color: #1d2120;
+}
+.fa-angle-double-down {
+  color: #f4511e;
+}
+
+.fa-angle-double-down {
+  font-size: 60px;
+  color: white;
+}
+.fa-angle-double-down:hover {
+  font-size: 65px;
+  color: #c7a693;
+  transition: all 0.5s ease;
+}
+
+.fa-angle-double-up {
+  font-size: 60px;
+  color: black;
+}
+
+.fa-angle-double-up:hover {
+  font-size: 65px;
+  color: #c7a693;
+  transition: all 0.5s ease;
+}
+
+.fa-user-circle {
+  font-size: 125px;
+  color: black;
+}
+
+.panel {
+  border: 1px solid #1d2120;
+  border-radius: 0 !important;
+  transition: box-shadow 0.4s;
+}
+.panel:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.7);
+}
+.panel-footer .btn:hover {
+  border: 1px solid #1d2120;
+  background-color: #fff !important;
+  color: #1d2120;
+}
+.panel-heading {
+  color: #fff !important;
+  background-color: #1d2120 !important;
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.panel-footer {
+  background-color: white !important;
+}
+
+.panel-footer h4 {
+  color: #aaa;
+  font-size: 17px;
+}
+.panel-footer .btn {
+  margin: 10px 0;
+  background-color: #1d2120;
+  color: #fff;
+}
+.card-body p {
+  font-size: 20px;
+  color: ;
+}
+
+
+.slideanim {
+  visibility: hidden;
+}
+.slide {
+  animation-name: slide;
+  -webkit-animation-name: slide;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slide {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slide {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+.social-platform {
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+  
+}
+
+
+.btn-lg {
+  margin: 20px 0px;
+  background-color: #1d2120;
+  color: #fff;
+  padding: 15px 20px 15px 20px;
+}
+
+.btn-lg:hover {
+  background-color: white;
+  color: #1d2120;
+  border: 1px solid #1d2120;
+  transition: all 0.6s ease;
+}
+
+
+
+.btn-info {
+  color: #1d2120;
+  background-color: #b5a397;
+  border: 1px solid #1d2120;
+}
+
+.btn-info:hover {
+  color: #1d2120;
+  border: 2px solid #1d2120;
+  background-color: #c7a693;
+  transition: all 0.6s ease;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.7);
+}
+.glyphicon-envelope {
+  font-size: 65px;
+  color: #1d2120;
+}
+.get {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+.get:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.modal-header {
+  background-color: #1d2120;
+  color: white;
+}
+.modal-footer {
+  background-color: #1d2120;
+}
+
+
+.a {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.a:hover {
+    opacity: 0.7;
+}
+
+.a {
+  background: #3B5998;
+  color: white;
+}
